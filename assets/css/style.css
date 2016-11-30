@@ -1,0 +1,241 @@
+body {
+  background-color: black;
+}
+
+.jumbotron {
+  text-align: center;
+  color: white;
+  background-color: black;
+  background-image: url("../images/product-hugerect-28542-4416-1337140828-a0e55889bfc6f3e0ba40b3d60cd568e7 2.jpg");
+  background-size: cover;
+  margin-bottom: 0;
+  min-height: 750px;
+}
+
+.jumbotron h1 {
+  font-size: 2.5em;
+  color: white;
+  margin-top: 225px;
+}
+
+#bgVideo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    vertical-align: baseline;
+    right: 0;
+    bottom: 0;
+    width: auto;
+    min-width: 100%;
+    height: auto;
+    min-height: 100%;
+    z-index: -100;
+    background-size: cover;
+}
+
+.navbar {
+  background-color: black;
+  background-image: none;
+  border-color: none;
+}
+
+#navbar {
+  border-color: #3498db;
+}
+
+
+#navbar-text {
+  color: white;
+  font-family: 'Arvo', courier, serif;
+  font-weight: 200;
+  font-size: .85em;
+}
+
+#navbar-text:hover {
+  color: white;
+}
+
+#navbar-portfolio-text {
+  font-family: 'Lato', courier, serif;
+  color: #ecf0f1;
+  font-size: 2em;
+  padding-left: 50px;
+}
+
+.navbar-header a {
+  font-size: 1.5em;
+}
+
+#navbar ul {
+  font-size: 1.25em;
+}
+
+.active {
+  color: #9d9d9d;
+  background-color: #2098d1;
+}
+
+
+
+/*portfolio button*/
+#portfolio-button {
+  color: #ffc266;
+}
+.fa-angle-down:before {
+  content: "\f107";
+}
+
+/*Portfolio Projects*/
+#portfolio h3 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -50px;
+  padding: 1em;
+  color: white;
+  background: rgba(0, 0, 0, 0.75);
+  margin-bottom: 0;
+  margin-top: 0;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.17em;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+#portfolio img {
+  height: 90%;
+  width: 90%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: all 0.3s ease;
+}
+
+#portfolio .col-md-4 {
+  height: 350px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+/*Row One Portfolio*/
+.row-one #project-left {
+  background-color: black;
+}
+
+.row-one #project-middle {
+  background-color: black;
+}
+
+.row-one #project-right {
+  background-color: black;
+}
+
+/*Row Two Portfolio*/
+.row-two #project-left {
+  background-color: black;
+}
+
+.row-two #project-middle {
+  background-color: black;
+}
+
+.row-two #project-right {
+  background-color: black;
+}
+
+
+
+#project-left:hover h3 {
+  bottom: 0;
+}
+
+#project-left:hover img {
+  height: 8em;
+  width: 8em;
+}
+
+
+#project-middle:hover h3 {
+  bottom: 0;
+}
+
+#project-middle:hover img {
+  height: 8em;
+  width: 8em;
+}
+
+
+#project-right:hover h3 {
+  bottom: 0;
+}
+
+#project-right:hover img {
+  height: 8em;
+  width: 8em;
+}
+
+.black-row {
+  height: 96px;
+  position: absolute;
+  width: 100%;
+  background-color: black;
+}
+
+
+/*About Me*/
+#about-me {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#about-me img {
+  width: 50%;
+  height: 50%;
+  -webkit-filter:brightness(80%);
+    -moz-filter:brightness(80%);
+    filter: url(#brightness); /* required for FF */
+    filter:brightness(80%);
+  float: left;
+  margin-right: 10px;
+}
+
+#about-me h1, p {
+  color: #ccc;
+}
+
+
+
+
+/*Footer*/
+footer {
+  background-color: #cccccc;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  position: relative;
+}
+
+footer p {
+  color: black;
+}
+
+
+#scroll-top {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+
+#scroll-top a {
+  color: #333;
+}
+
+#footer #self-image { 
+  width: 100px;
+  height: 100px;
+  position: relative;
+  margin-left: 50px;
+}
